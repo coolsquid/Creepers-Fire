@@ -1,0 +1,14 @@
+[{
+  "modid": "creepersfire",
+  "name": "CreepersFire",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["CoolSquid", "strikingwolf"],
+  "credits": "Strikingwolf, for creating the original version of the mod.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}]
