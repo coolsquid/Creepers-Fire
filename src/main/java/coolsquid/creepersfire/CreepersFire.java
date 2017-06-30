@@ -14,13 +14,14 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.ReflectionHelper;
 
-@Mod(modid = CreepersFire.MODID, name = CreepersFire.NAME, version = CreepersFire.VERSION, acceptableRemoteVersions = "*", acceptedMinecraftVersions = "[1.11.2,1.12]", guiFactory = "coolsquid.creepersfire.ConfigGuiFactory")
+@Mod(modid = CreepersFire.MODID, name = CreepersFire.NAME, version = CreepersFire.VERSION, acceptableRemoteVersions = "*", updateJSON = CreepersFire.UPDATE_JSON, guiFactory = "coolsquid.creepersfire.ConfigGuiFactory")
 public class CreepersFire {
 
 	public static final String MODID = "creepersfire";
 	public static final String NAME = "Creepers Fire";
 	public static final String VERSION = "2.0.4";
 	public static final String DEPENDENCIES = "required-after:forge@[14.21.1.2387,)";
+	public static final String UPDATE_JSON = "https://coolsquid.me/api/version/creepersfire.json";
 
 	public static final Configuration CONFIG = new Configuration(new File("./config/CreepersFire.cfg"));
 
