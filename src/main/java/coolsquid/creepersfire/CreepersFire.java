@@ -19,7 +19,7 @@ public class CreepersFire {
 
 	public static final String MODID = "creepersfire";
 	public static final String NAME = "Creepers Fire";
-	public static final String VERSION = "2.0.3";
+	public static final String VERSION = "2.0.4";
 	public static final String DEPENDENCIES = "required-after:forge@[14.21.1.2387,)";
 
 	public static final Configuration CONFIG = new Configuration(new File("./config/CreepersFire.cfg"));
