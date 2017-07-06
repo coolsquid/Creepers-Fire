@@ -36,7 +36,7 @@ sourceSets {
 
 // set forge version and mappings
 minecraft {
-	version = project.forgeVersion
+	version = project.mcVersion + "-" + project.forgeVersion
 	runDir = "run"
 	mappings = project.mappings
 }
